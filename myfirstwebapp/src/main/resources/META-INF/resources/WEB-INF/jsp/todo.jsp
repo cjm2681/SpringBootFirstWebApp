@@ -33,4 +33,10 @@
 
 <%@ include file="common/footer.jspf"%>
 
+<script type="text/javascript">
+	$('#targetDate').datepicker({
+	    format: 'yyyy-mm-dd'
+	});
+</script>
+
 
